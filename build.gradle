@@ -41,6 +41,9 @@ springBoot{
 
 repositories {
     jcenter()
+    maven {
+        url  "http://dl.bintray.com/kotlin/exposed"
+    }
 }
 
 dependencies {
